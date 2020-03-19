@@ -9,8 +9,11 @@ Docker image with Python mtrics collection script inside
 
 ## Usage
 First, you need to build container. Copy the ```metrics.py``` and ```Dockerfile``` to your directory and run
-```docker build -t metrics .``` inside your directory.
-After build successfully finished, run container with ```docker run metrics cpu``` or ```docker run mtrics mem```.
+```docker build -t metrics .```  inside your directory.
+After build successfully finished, run container with 
+```docker run metrics cpu``` 
+or 
+```docker run mtrics mem```.
 
 ## Example of output
 ```
